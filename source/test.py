@@ -38,7 +38,7 @@ np_result = np.asarray(result)
 prediction = np_result.argmax(axis=1)[0]
 print(f"This is your number: {prediction}")
 
-if prediction != 5:
+if prediction != 8:
     print("Model prediction failed.")
     sys.exit(1)
 
